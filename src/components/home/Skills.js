@@ -20,6 +20,12 @@ const SkillsStyle = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
+     @media (max-width: 960px) {
+         grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 550px) {
+         display: block;
+      }
   }
   .card {
     background: var(--white);
@@ -30,6 +36,10 @@ const SkillsStyle = styled.section`
     :hover {
       transform: translateY(-15px);
     }
+   @media (max-width: 550px) {
+      margin: 3rem auto 2rem auto;
+      width: 75%;
+   }
   }
   .icon {
     font-size: 5rem;

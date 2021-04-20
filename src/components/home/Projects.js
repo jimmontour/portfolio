@@ -8,6 +8,7 @@ import Technobabble from "../../images/technobabble-sample.png";
 
 export default function Projects() {
   const ProjectsStyle = styled.div`
+   background: var(--lightGrey);
     .project-container {
       margin: 0 auto;
       width: 100%;
@@ -19,6 +20,9 @@ export default function Projects() {
      gap: 2rem;
      align-items: start;
      margin-bottom: 8rem;
+      @media (max-width: 960px) {
+         display: block;
+      }
      img {
        width: 100%;
      }
@@ -32,20 +36,33 @@ export default function Projects() {
        font-weight: 600;
        background: var(--green);
        border-radius: 5px;
-       padding: 0.5rem 1rem;
        font-size: 0.8rem;
-       margin: 0 1rem 0 0;
+       text-align: center;
+       padding: .75rem 1rem;
      }
      .tech-list {
        margin: 1rem 0 2rem 0;
      }
      .project-buttons {
        margin-top: 4rem;
+      @media (max-width: 960px) {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+       }
+       @media (max-width: 500px) {
+         grid-template-columns: 1fr;
+         gap: 1rem;
+       }
      }
      .card-right,
      .card-left {
        box-shadow: var(--level-3);
        padding: 3rem;
+     }
+     .tech-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
      }
    `;
 
@@ -78,7 +95,7 @@ export default function Projects() {
                 Future implementations will include authentication and user
                 accounts.
               </p>
-              <div>
+              <div className="tech-list">
                 <span>React</span>
                 <span>NodeJS</span>
                 <span>Express</span>
@@ -110,6 +127,14 @@ export default function Projects() {
             </div>
           </ProjectStyle>
           <ProjectStyle class="project">
+            <div>
+               <img
+                  src={Devland}
+                  alt="project snapshot"
+                  data-aos="fade-right"
+                  data-aos-once="true"
+               />
+            </div>
             <div className="card-left">
               <h3>DevLand</h3>
               <h5>Junior Developer Job Board</h5>
@@ -120,7 +145,7 @@ export default function Projects() {
                 to Junior Level positions and put into a table with a simple and
                 clean UI.
               </p>
-              <div>
+              <div className="tech-list">
                 <span>React</span>
                 <span>NodeJS</span>
                 <span>Express</span>
@@ -150,14 +175,6 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-            <div>
-              <img
-                src={Devland}
-                alt="project snapshot"
-                data-aos="fade-right"
-                data-aos-once="true"
-              />
-            </div>
           </ProjectStyle>
           <ProjectStyle class="project">
             <div>
@@ -177,7 +194,7 @@ export default function Projects() {
                 client with an 80s synthpunk UI. To connect with a friend,
                 simply share your room address and you're ready to chat!
               </p>
-              <div>
+            <div className="tech-list">
                 <span>JavaScript</span>
                 <span>Node</span>
                 <span>Express</span>

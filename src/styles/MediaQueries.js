@@ -14,6 +14,26 @@ const MediaQueries = createGlobalStyle`
       display: flex;
    }
 }
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 800px) {
+   .navigation {
+      display: none;
+   }
+}
+@media (max-width: 550px) {
+
+}
+
+@media (🤵 -width: 340px) {
+   .navigation {
+
+   }
+}
 `;
+
+
 
 export default MediaQueries;

@@ -59,7 +59,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <NavStyle data-aos="fade-down" data-aos-once="true">
+    <NavStyle data-aos="fade-down" data-aos-once="true" className="navigation">
       <nav>
         <div className="logo">
           <span>

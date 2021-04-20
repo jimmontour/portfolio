@@ -6,10 +6,20 @@ import 'aos/dist/aos.css';
 
 export default function About() {
   const AboutStyle = styled.div`
+  background: var(--lightGrey);
+  h2 {
+      @media (max-width: 960px) {
+         text-align: center;
+      }
+  }
     img {
       width: 80%;
       border-radius: 50%;
       box-shadow: var(--level-3);
+      @media (max-width: 960px) {
+         border-radius: 3%;
+         width: 100%;
+      }
     }
     .about-container {
       max-width: 70%;
@@ -18,9 +28,17 @@ export default function About() {
       gap: 0.5rem;
       justify-content: center;
       align-items: center;
+      @media (max-width: 960px) {
+         display: block;
+      }
     }
     .button-container {
        margin-top: 3rem;
+       @media (max-width: 960px) {
+            display: flex;
+         flex-direction: column;
+         text-align: center;
+       }
     }
   `;
 
