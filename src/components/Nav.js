@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import Logo from '../assets/svg/logo.svg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
