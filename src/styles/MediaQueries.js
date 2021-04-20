@@ -27,10 +27,8 @@ const MediaQueries = createGlobalStyle`
 
 }
 
-@media (🤵 -width: 340px) {
-   .navigation {
+@media (max-width: 340px) {
 
-   }
 }
 `;
 

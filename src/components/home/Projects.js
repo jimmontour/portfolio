@@ -38,10 +38,16 @@ export default function Projects() {
        border-radius: 5px;
        font-size: 0.8rem;
        text-align: center;
-       padding: .75rem 1rem;
+       padding: .5rem .75rem;
      }
      .tech-list {
-       margin: 1rem 0 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
+        @media (max-width: 960px) {
+         display: grid;
+
+       }
      }
      .project-buttons {
        margin-top: 4rem;
@@ -59,10 +65,9 @@ export default function Projects() {
        box-shadow: var(--level-3);
        padding: 3rem;
      }
-     .tech-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: .5rem;
+
+     .project-screenshot {
+
      }
    `;
 
@@ -77,7 +82,7 @@ export default function Projects() {
           <h2 className="text-center heading-margin">Projects</h2>
           {/* Projects start here */}
           <ProjectStyle class="project">
-            <div>
+            <div  >
               <img
                 src={Travelog}
                 alt="project snapshot"

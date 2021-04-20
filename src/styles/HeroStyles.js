@@ -5,7 +5,14 @@ const HeroStyles = styled.div`
   h1 {
     font-size: 6rem;
     color: var(--white);
+      @media (max-width: 600px) {
+         font-size: 4rem;
+       }
+      @media (max-width: 400px) {
+       font-size: 3rem;
+      }
   }
+
   a {
     margin: 0 1rem;
     color: #fff;
