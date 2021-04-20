@@ -18,6 +18,9 @@ export default function Nav() {
       justify-content: space-between;
       width: 100%;
       align-items: center;
+      @media (max-width: 800px) {
+         display: none;
+      }
     }
     img {
       width: 20px;

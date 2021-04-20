@@ -19,9 +19,7 @@ const MediaQueries = createGlobalStyle`
 }
 
 @media (max-width: 800px) {
-   .navigation {
-      display: none;
-   }
+
 }
 @media (max-width: 550px) {
 
@@ -31,7 +29,5 @@ const MediaQueries = createGlobalStyle`
 
 }
 `;
-
-
 
 export default MediaQueries;
