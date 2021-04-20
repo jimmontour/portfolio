@@ -96,7 +96,11 @@ ul {
    list-style: none;
 }
 
-button {
+a {
+   text-decoration: none;
+}
+
+.button {
    appearance: none;
    padding: 1rem 1.5rem;
    border: none;
@@ -105,19 +109,27 @@ button {
    background-color: var(--blue);
    color: var(--white);
    transition: .2s ease-in-out box-shadow;
+   transition: .2s ease-in-out color;
+   cursor: pointer;
 }
 
 .button-transparent {
    background-color: transparent;
    color: var(--blue);
    border: 2px solid var(--blue);
+   transition: .2s ease-in-out background-color;
 }
 
-button:hover {
+.button-transparent:hover {
+   background-color: var(--blue);
+}
+
+.button:hover {
    box-shadow: var(--level-3);
+   color: var(--green);
 }
 
-button[disabled] {
+.button[disabled] {
    opacity: 0.4;
 }
 `;

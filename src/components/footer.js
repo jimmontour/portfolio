@@ -4,44 +4,22 @@ import styled from 'styled-components';
 
 export default function Footer() {
   const FooterStyle = styled.footer`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 3rem;
+    footer {
+      color: var(--blue);
+      text-align: center;
+      padding: 2rem 0 6rem;
+    }
   `;
 
   return (
     <FooterStyle>
       <footer>
-        <a
-          href="https://www.github.com/jimmontour"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-        >
-          <FaGithub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jimmontour"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          href="https://www.twitter.com/jimmontour"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaTwitter />
-        </a>
+        <div>
+          <small>
+            This site was created with React and hosted with Netlify. ©{new Date().getFullYear()}. ✌️ ❤️ 🤘
+          </small>
+        </div>
       </footer>
-      <div>
-        <small>© {new Date().getFullYear()}, Jim Montour</small>
-      </div>
-      <div>
-        <small>something else</small>
-      </div>
     </FooterStyle>
   );
 }

@@ -10,6 +10,15 @@ const HeroStyles = styled.div`
     margin: 0 1rem;
     color: #fff;
   }
+  .hero-icon {
+    color: var(--white);
+    transition: color 0.2s ease-in;
+  }
+
+  .hero-icon:hover {
+    color: var(--yellow);
+  }
+
   .hero-button {
     border: 1px solid var(--white);
     background-color: transparent;
@@ -351,7 +360,7 @@ const HeroStyles = styled.div`
   }
 
   #stars:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 2000px;
     width: 1px;
