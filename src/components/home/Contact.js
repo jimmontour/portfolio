@@ -16,16 +16,16 @@ export default function Contact() {
       margin: 0 auto;
       text-align: center;
       @media (max-width: 600px) {
-         display: inline-block;
+        display: inline-block;
       }
     }
     .button-container {
       margin-top: 3rem;
-          @media (max-width: 960px) {
-            display: flex;
-         flex-direction: column;
-         text-align: center;
-       }
+      @media (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
     }
     .social-icons {
       margin-top: 2rem;
@@ -42,7 +42,7 @@ export default function Contact() {
     }
 
     .icon:hover {
-      color: var(--yellow);
+      color: var(--white);
     }
   `;
 

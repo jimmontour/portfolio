@@ -20,9 +20,9 @@ export default function Projects() {
      gap: 2rem;
      align-items: start;
      margin-bottom: 8rem;
-      @media (max-width: 960px) {
-         display: block;
-      }
+     @media (max-width: 960px) {
+       display: block;
+     }
      img {
        width: 100%;
      }
@@ -33,25 +33,24 @@ export default function Projects() {
        margin-right: 1rem;
      }
      span {
-       font-weight: 600;
+       font-weight: 400;
        background: var(--green);
        border-radius: 5px;
        font-size: 0.8rem;
        text-align: center;
-       padding: .5rem .75rem;
+       padding: 0.5rem 0.75rem;
      }
      .tech-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: .5rem;
-        @media (max-width: 960px) {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       gap: 0.5rem;
+       @media (max-width: 960px) {
          display: grid;
-
        }
      }
      .project-buttons {
        margin-top: 4rem;
-      @media (max-width: 960px) {
+       @media (max-width: 960px) {
          display: grid;
          grid-template-columns: 1fr 1fr;
        }
@@ -67,7 +66,10 @@ export default function Projects() {
      }
 
      .project-screenshot {
-
+        img {
+           width: 100%;
+           height: auto;
+        }
      }
    `;
 
@@ -82,7 +84,7 @@ export default function Projects() {
           <h2 className="text-center heading-margin">Projects</h2>
           {/* Projects start here */}
           <ProjectStyle class="project">
-            <div  >
+            <div className="project-screenshot">
               <img
                 src={Travelog}
                 alt="project snapshot"
@@ -121,7 +123,7 @@ export default function Projects() {
                   Visit Site
                 </a>
                 <a
-                  href="github.com/jimmontour/"
+                  href="https://github.com/jimmontour/travelog"
                   className="button button-transparent"
                   target="_blank"
                   rel="noreferrer"
@@ -133,12 +135,12 @@ export default function Projects() {
           </ProjectStyle>
           <ProjectStyle class="project">
             <div>
-               <img
-                  src={Devland}
-                  alt="project snapshot"
-                  data-aos="fade-right"
-                  data-aos-once="true"
-               />
+              <img
+                src={Devland}
+                alt="project snapshot"
+                data-aos="fade-right"
+                data-aos-once="true"
+              />
             </div>
             <div className="card-left">
               <h3>DevLand</h3>
@@ -163,7 +165,7 @@ export default function Projects() {
                 data-aos-once="true"
               >
                 <a
-                  href="github.com/jimmontour/"
+                  href="https://devland.dev/"
                   className="button"
                   target="_blank"
                   rel="noreferrer"
@@ -171,7 +173,7 @@ export default function Projects() {
                   Visit Site
                 </a>
                 <a
-                  href="github.com/jimmontour/"
+                  href="https://github.com/jimmontour/devland"
                   className="button button-transparent"
                   target="_blank"
                   rel="noreferrer"
@@ -199,7 +201,7 @@ export default function Projects() {
                 client with an 80s synthpunk UI. To connect with a friend,
                 simply share your room address and you're ready to chat!
               </p>
-            <div className="tech-list">
+              <div className="tech-list">
                 <span>JavaScript</span>
                 <span>Node</span>
                 <span>Express</span>
@@ -220,7 +222,7 @@ export default function Projects() {
                   Visit Site
                 </a>
                 <a
-                  href="github.com/jimmontour"
+                  href="https://github.com/jimmontour/technobabble"
                   className="button button-transparent"
                   target="_blank"
                   rel="noreferrer"

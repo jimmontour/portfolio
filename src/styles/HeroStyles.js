@@ -23,7 +23,7 @@ const HeroStyles = styled.div`
   }
 
   .hero-icon:hover {
-    color: var(--yellow);
+    color: var(--green);
   }
 
   .hero-button {

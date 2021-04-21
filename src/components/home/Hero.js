@@ -15,7 +15,7 @@ export default function Hero() {
       <div
         className="hero bg-gradient bg-style"
         style={{
-          background: `linear-gradient(136deg, #448, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f)`,
+          background: `linear-gradient(136deg, #448, #4484ce, #ff9b11, #9b59b6, #ff7f7f)`,
           backgroundSize: "1200%, 1200%",
         }}
       >

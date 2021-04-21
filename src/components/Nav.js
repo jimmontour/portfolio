@@ -19,7 +19,7 @@ export default function Nav() {
       width: 100%;
       align-items: center;
       @media (max-width: 800px) {
-         display: none;
+        display: none;
       }
     }
     img {
@@ -31,13 +31,21 @@ export default function Nav() {
     li {
       margin-left: 2rem;
     }
-    span {
-       color: var(--blue);
+    h3 {
+      font-size: 1.5rem;
+      letter-spacing: 0.2rem;
+      margin: 0;
+      font-weight: 800;
+    }
+    h3 a {
+      color: var(--blue);
+      margin: 0;
     }
     ul a {
       text-decoration: none;
       color: var(--blue);
       position: relative;
+      letter-spacing: 0.2rem;
     }
     ul a:before {
       content: "";
@@ -65,9 +73,9 @@ export default function Nav() {
     <NavStyle data-aos="fade-down" data-aos-once="true" className="navigation">
       <nav>
         <div className="logo">
-          <span>
+          <h3>
             <a href="/#hero">JIM MONTOUR</a>
-          </span>
+          </h3>
         </div>
         <ul>
           <li>
