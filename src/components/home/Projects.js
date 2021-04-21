@@ -43,9 +43,13 @@ export default function Projects() {
      .tech-list {
        display: grid;
        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
        gap: 0.5rem;
        @media (max-width: 960px) {
          display: grid;
+       }
+       @media (max-width: 500px) {
+         grid-template-columns: 1fr 1fr 1fr;
        }
      }
      .project-buttons {
@@ -57,6 +61,7 @@ export default function Projects() {
        @media (max-width: 500px) {
          grid-template-columns: 1fr;
          gap: 1rem;
+         margin-top: 2rem;
        }
      }
      .card-right,
@@ -66,10 +71,10 @@ export default function Projects() {
      }
 
      .project-screenshot {
-        img {
-           width: 100%;
-           height: auto;
-        }
+       img {
+         width: 100%;
+         height: auto;
+       }
      }
    `;
 

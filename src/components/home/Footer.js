@@ -7,6 +7,10 @@ export default function Footer() {
       color: var(--blue);
       text-align: center;
       padding: 2rem 0 6rem;
+      @media (max-width: 600px) {
+        width: 50%;
+        margin: 0 auto;
+      }
     }
   `;
 

@@ -115,7 +115,7 @@ export default function Skills() {
                 <li>Git / GitHub</li>
                 <li>Adobe XD</li>
                 <li>Webpack</li>
-                <li>Atomic Design</li>
+                <li>Jest</li>
               </ul>
             </div>
           </div>

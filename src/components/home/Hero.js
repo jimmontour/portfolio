@@ -26,7 +26,7 @@ export default function Hero() {
             Jim Montour
           </h1>
           <Typist className="lead typist" cursor={{ show: true }}>
-            Full Stack Web Developer, all-around nice guy...
+            Full Stack Web Developer, all around nice guy...
           </Typist>
           <div
             className="social-buttons"
