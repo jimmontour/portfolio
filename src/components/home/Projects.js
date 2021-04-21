@@ -125,7 +125,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Visit Site
+                 Demo
                 </a>
                 <a
                   href="https://github.com/jimmontour/travelog"
@@ -175,7 +175,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Visit Site
+                  Demo
                 </a>
                 <a
                   href="https://github.com/jimmontour/devland"
@@ -224,7 +224,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Visit Site
+                  Demo
                 </a>
                 <a
                   href="https://github.com/jimmontour/technobabble"
