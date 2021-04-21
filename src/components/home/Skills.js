@@ -86,7 +86,6 @@ export default function Skills() {
               <ul>
                 <li>NodeJS</li>
                 <li>Express</li>
-                <li>NestJS</li>
                 <li>Firebase</li>
               </ul>
             </div>
@@ -100,7 +99,6 @@ export default function Skills() {
               <ul>
                 <li>MongoDB</li>
                 <li>GraphQL</li>
-                <li>PostgreSQL</li>
                 <li>MySql</li>
               </ul>
             </div>

@@ -68,8 +68,7 @@ export default function About() {
           </p>
           <p>
             Fast-forward to today, I am a Full Stack Developer with a focus on
-            the MERN stack. As a self-taught programmer, I use continuous
-            iteration to produce results quickly and continuously improve and expand my skill set.
+            the MERN stack. As a self-taught programmer, I'm always actively improving and expanding my skill set with the latest technology.
           </p>
           <p>
             When I'm not busy working on various projects, you'll find me
