@@ -115,7 +115,7 @@ export default function Projects() {
                 data-aos-once="true"
               >
                 <a
-                  href="https://xenodochial-sinoussi-f6ec3d.netlify.app/"
+                  href="https://travel-log.dev/"
                   className="button"
                   target="_blank"
                   rel="noreferrer"
