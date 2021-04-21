@@ -1,6 +1,5 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 export default function Footer() {
   const FooterStyle = styled.footer`
@@ -16,7 +15,8 @@ export default function Footer() {
       <footer>
         <div>
           <small>
-            This site was created with React and hosted with Netlify. ©{new Date().getFullYear()}. ✌️ ❤️ 🤘
+            This site was created with React and hosted with Netlify. ©
+            {new Date().getFullYear()}. ✌️ ❤️ 🤘
           </small>
         </div>
       </footer>
